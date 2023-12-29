@@ -1,0 +1,96 @@
+body {
+  background-color: yellowgreen;
+}
+
+h1 {
+  color: goldenrod;
+  font-family: 'Rye', cursive;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+  width: 1000px;
+  height: 600px;
+  background-image: url(field.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border: 10px solid goldenrod;
+  border-radius: 15px;
+}
+
+img {
+  position: absolute;
+}
+
+
+
+#egg1 {
+  width: 50px;
+  bottom: 260px;
+  left: 110px;
+}
+
+#egg2 {
+  width: 30px;
+  bottom: 200px;
+  right: 70px;
+}
+
+#egg3 {
+  width: 40px;
+  bottom: 75px;
+  left: 700px;
+}
+
+#egg4 {
+  width: 40px;
+  bottom: 250px;
+  left: 330px;
+}
+
+#rock {
+  width: 175px;
+  bottom: 200px;
+  left: 45px;
+}
+
+#wagon {
+  width: 250px;
+  bottom: 50px;
+  left: 340px;
+}
+
+#hay {
+  width: 150px;
+  bottom: 30px;
+  left: 650px;
+}
+
+#bunny {
+  width: 120px;
+  bottom: 150px;
+  right: 25%;
+}
+
+#bunny3 {
+  width: 120px;
+  bottom: 180px;
+  right: 50px;
+}
+
+#bunny4 {
+  width: 150px;
+  bottom: 90px;
+  left: 5%;
+}
+
+#score {
+  position: absolute;
+  color: ivory;
+  font-size: 48px;
+  top: 0px;
+  left: 50px;
+}

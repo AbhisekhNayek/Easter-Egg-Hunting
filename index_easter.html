@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <title>Easter Egg Hunting</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Easter Egg Hunting</h1>
+    <div class="container">
+      <p id='score'>0</p>
+      
+      <img src='egg1.png' id='egg1' class='egg'>
+      <img src='rock2.png' id='rock'>
+      
+      <img src='egg2.png' id='egg2' class='egg'>
+      <img src='bunny2.png' id='bunny'>
+      
+      <img src='egg3.png' id='egg3' class='egg'>
+      <img src='hay.png' id='hay'>
+
+      <img src='egg4.png' id='egg4' class='egg'>
+      <img src='wagon.png' id='wagon'>
+
+      <img src='egg5.png' id='egg4' class='egg'>
+      <img src='bunny3.png' id='bunny3'>
+
+      <img src='egg1.png' id='egg1' class='egg'>
+      <img src='rock2.png' id='rock'>
+      
+      <img src='egg2.png' id='egg2' class='egg'>
+      <img src='bunny4.png' id='bunny4'>
+      
+      <img src='egg3.png' id='egg3' class='egg'>
+      <img src='hay.png' id='hay'>
+
+      <img src='egg4.png' id='egg4' class='egg'>
+      <img src='wagon.png' id='wagon'>
+
+      <img src='egg3.png' id='egg3' class='egg'>
+      <img src='rock1.png' id='rock'>
+
+      <img src='egg2.png' id='egg2' class='egg'>
+      <img src='bunny4.png' id='bunny4'>
+    </div>
+    <script>
+      
+      var score = 0;
+      
+      function foundEgg(event){
+        console.log("clicked");
+        var egg = $(event.currentTarget);
+        egg.fadeOut(250);
+        score = score + 1;
+        $('#score').text(score);
+        
+        if(score >= 10){
+          alert('You found all the eggs!');   
+        }
+      }
+      $('.egg').click(foundEgg);
+      
+    </script>
+</body>
+</html>

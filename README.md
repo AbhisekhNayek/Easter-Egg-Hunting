@@ -2,6 +2,8 @@
 
 Welcome to the Easter Eggs Hunting Game! 🐣🌸
 
+# Demo
+<a href="https://abhisekhnayek.github.io/Easter-Egg-Hunting/">Play <span> Game</a>   🐣
 ## How to Play
 
 1. **Objective**: Find and click on the hidden Easter eggs within the given environment.
